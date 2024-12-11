@@ -14,5 +14,5 @@ function checkPswd()
 
 function ShowContact() 
 {
-    alert("Contact us on cs.ancientfoxstudios@gmail.com");
+    window.location.href = "about.html";
 }
