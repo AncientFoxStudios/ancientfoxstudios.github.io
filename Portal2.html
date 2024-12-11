@@ -1,0 +1,31 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Portal</title>
+</head>
+<body>
+<form>
+    <label for="pswd">Prove your right to access this page by entering the access code:</label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<br>
+<br>
+<a href="PremiumMovie01.html">Back</a>
+    
+    
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "H58k4^@3avgGHBljtTcq";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="09213421341.mp4";
+        }
+        else{
+            document.write("Access denied: Incorrect access code");
+        }
+    }
+
+</script>
+</body>
+</html>
